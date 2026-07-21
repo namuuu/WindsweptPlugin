@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class PlayerManager {
     private static PlayerManager instance;
-    private HashMap<UUID, PlayerInstance> playerDataMap = new HashMap<>();
+    private final HashMap<UUID, PlayerInstance> playerDataMap = new HashMap<>();
 
     public static PlayerManager getInstance() {
         if (instance == null) {

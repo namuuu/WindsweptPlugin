@@ -1,6 +1,5 @@
 package fr.namu.windswept.util;
 
-import fr.namu.windswept.enums.Job;
 import fr.namu.windswept.enums.Quest;
 import fr.namu.windswept.enums.QuestAdvancementType;
 import fr.namu.windswept.instance.PlayerInstance;

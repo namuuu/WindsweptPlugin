@@ -4,7 +4,6 @@ import com.mojang.brigadier.tree.LiteralCommandNode;
 import fr.namu.windswept.enums.Job;
 import fr.namu.windswept.instance.PlayerInstance;
 import fr.namu.windswept.manager.PlayerManager;
-import fr.namu.windswept.util.SavePlayerDataUtil;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
 import io.papermc.paper.command.brigadier.Commands;
 import org.bukkit.entity.Player;

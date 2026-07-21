@@ -7,9 +7,7 @@ import fr.namu.windswept.event.MiningOreEvent;
 import fr.namu.windswept.instance.FarkleInstance;
 import fr.namu.windswept.manager.CommandManager;
 import fr.namu.windswept.manager.FarkleManager;
-import fr.namu.windswept.manager.PlayerManager;
 import fr.namu.windswept.util.SavePlayerDataUtil;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {

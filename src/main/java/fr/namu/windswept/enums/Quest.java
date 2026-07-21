@@ -1,20 +1,20 @@
 package fr.namu.windswept.enums;
 
 public enum Quest {
-    COAL_MINING("Miner du charbon", 0, Job.MINER, QuestAdvancementType.BREAKING_COAL_ORE, 10, QuestRewardType.JOB_MASTERY_POINT);
+    COAL_MINING("Miner du charbon", 0, Job.MINER, QuestAdvancementType.BREAKING_COAL_ORE, 10, QuestRewardType.JOB_MASTERY_POINT)
     ;
 
-    private String questName;
+    private final String questName;
 
-    private int requiredLevel;
+    private final int requiredLevel;
 
-    private Job job;
+    private final Job job;
 
-    private QuestAdvancementType advancementType;
+    private final QuestAdvancementType advancementType;
 
-    private int completion;
+    private final int completion;
 
-    private QuestRewardType reward;
+    private final QuestRewardType reward;
 
     Quest(String questName, int requiredLevel, Job job, QuestAdvancementType advancementType, int completion, QuestRewardType reward) {
         this.questName = questName;

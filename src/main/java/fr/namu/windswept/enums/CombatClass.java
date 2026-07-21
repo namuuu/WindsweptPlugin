@@ -7,10 +7,14 @@ public enum CombatClass {
     ROGUE("Voleur")
     ;
 
-    private String name;
+    private final String name;
 
     CombatClass(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }
 

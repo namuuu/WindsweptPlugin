@@ -6,7 +6,6 @@ import fr.namu.windswept.enums.Job;
 import fr.namu.windswept.enums.Quest;
 import fr.namu.windswept.util.QuestUtil;
 import fr.namu.windswept.util.SavePlayerDataUtil;
-import it.unimi.dsi.fastutil.Hash;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

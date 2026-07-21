@@ -2,8 +2,6 @@ package fr.namu.windswept.util;
 
 import org.bukkit.entity.Player;
 
-import java.util.Map;
-
 public class MessageUtil {
     private final static String PREFIX = "§6[§cWindswept§6] §r";
 

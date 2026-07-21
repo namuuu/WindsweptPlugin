@@ -1,15 +1,12 @@
 package fr.namu.windswept.command;
 
 import com.mojang.brigadier.tree.LiteralCommandNode;
-import fr.namu.windswept.enums.Job;
 import fr.namu.windswept.instance.PlayerInstance;
 import fr.namu.windswept.manager.PlayerManager;
 import fr.namu.windswept.util.QuestUtil;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
 import io.papermc.paper.command.brigadier.Commands;
 import org.bukkit.entity.Player;
-
-import java.util.Arrays;
 
 public class QuestCommand {
     public LiteralCommandNode<CommandSourceStack> build() {
