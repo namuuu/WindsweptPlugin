@@ -3,7 +3,11 @@ version: 1.0.0
 main: fr.namu.windswept.Main
 api-version: '1.21.11'
 commands:
-  ws-reload:
-    description: Initializes the plugin's features
+  test:
+    description: Commande de test
   farkle:
     description: Farkling
+  job:
+    description: Commande de job
+  quest:
+    description: Commande de quête
